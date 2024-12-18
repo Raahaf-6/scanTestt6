@@ -29,9 +29,22 @@
 		5DF805F42D12B14D004096A3 /* scanTestt6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scanTestt6UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5DF8060E2D12B2AA004096A3 /* Exceptions for "scanTestt6" folder in "scanTestt6" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5DF805D92D12B14B004096A3 /* scanTestt6 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5DF805DC2D12B14B004096A3 /* scanTestt6 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5DF8060E2D12B2AA004096A3 /* Exceptions for "scanTestt6" folder in "scanTestt6" target */,
+			);
 			path = scanTestt6;
 			sourceTree = "<group>";
 		};
@@ -399,6 +412,9 @@
 				DEVELOPMENT_TEAM = 7268LU9VQ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = scanTestt6/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan documents";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to select an image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +444,9 @@
 				DEVELOPMENT_TEAM = 7268LU9VQ9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = scanTestt6/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to your camera to scan documents";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "We need access to your photo library to select an image";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
